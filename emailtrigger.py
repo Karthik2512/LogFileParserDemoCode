@@ -1,3 +1,7 @@
+'''
+This module is a simple script to trigger an email
+'''
+
 def send_email(error_mail):
     import smtplib
 
