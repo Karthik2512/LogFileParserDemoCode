@@ -1,7 +1,7 @@
 # LogFileParserDemoCode
 This is a DemoCode for parsing through large log files and triggering an email whenever there's an error.
 
-There are a total of five scripts in place:
+There are a total of five scripts in place: (The 6th one temp_config.py is just for declaring the filepath variables)
 
 Scheduler.py -> This is to schedule the Driver_code.py script in the given time interval for every 5 mins.
 
