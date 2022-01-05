@@ -13,4 +13,4 @@ final_datetime = now.replace(hour=18, minute=0, second=0, microsecond=0)
 
 while(now > initial_datetime and now < final_datetime):
     driver_function(parse_index, now)
-    time.sleep(20)
+    time.sleep(300)
