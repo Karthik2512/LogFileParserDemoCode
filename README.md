@@ -13,4 +13,6 @@ Logfileparser.py -> Here i wrote a function which uses regex to match the error 
 
 Email_trigger.py - > Contains the function where the total error count for each run of the script is mailed to a user. Triggered by Driver_code.py
 
+temp_config.py --> A temporary config file with variables of file paths
+
 DemoLogFileParserCode.mkv --> Audio/screen recording to help explain the scripts and show how it works when tested with sample code.
