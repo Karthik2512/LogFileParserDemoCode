@@ -1,0 +1,21 @@
+Here is the problem statement:
+
+ 
+
+There is an application (abc)  that writes to a log file (abc.log). This application is used between 08:00 to 18:00 hrs.
+
+Create a python script for monitoring the log file between  08:00 to 18:00 and send an email to user (abc@gmail.com) if the string “ERROR” appears in the log.
+
+Scan the log file every 5 mins.
+
+Additional Info:
+
+1. If this Logfile size exceeds 10 GB, the application will rename the current log as abc.log.bak and create a new log file abc.log
+
+2. If the application is restarted or killed, it will create a rename the current log as abc.log.bak and create a new log file abc.log
+
+4. Log volume is very high, a 10 GB file is created every 30 mins.
+
+5. The script should not cause any performance issues on the server (both IO and CPU)
+
+6. Use only native python language features/ libraries and do not use unix commands.
