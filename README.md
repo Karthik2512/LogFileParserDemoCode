@@ -16,3 +16,5 @@ Email_trigger.py - > Contains the function where the total error count for each 
 temp_config.py --> A temporary config file with variables of file paths
 
 DemoLogFileParserCode.mkv --> Audio/screen recording to help explain the scripts and show how it works when tested with sample code.
+
+problem_statement.txt --> The problem statement at hand for which the scripts were written
